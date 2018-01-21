@@ -7,12 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B5499962201525B300FBEC3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5499961201525B300FBEC3D /* AppDelegate.swift */; };
-		B5499964201525B300FBEC3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5499963201525B300FBEC3D /* ViewController.swift */; };
-		B5499967201525B300FBEC3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5499965201525B300FBEC3D /* Main.storyboard */; };
-		B5499969201525B300FBEC3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5499968201525B300FBEC3D /* Assets.xcassets */; };
-		B549996C201525B300FBEC3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B549996A201525B300FBEC3D /* LaunchScreen.storyboard */; };
-		B5499977201525B300FBEC3D /* CryptowatcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5499976201525B300FBEC3D /* CryptowatcherTests.swift */; };
+		B52A289F20152EAD00B9FAB6 /* TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52A289E20152EAD00B9FAB6 /* TestHelpers.swift */; };
+		B54999B22015279400FBEC3D /* then.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54999B12015279400FBEC3D /* then.framework */; };
+		B54999B52015291000FBEC3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54999B42015291000FBEC3D /* AppDelegate.swift */; };
+		B54999B62015291000FBEC3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54999B42015291000FBEC3D /* AppDelegate.swift */; };
+		B54999EB20152A1700FBEC3D /* Cryptowatcher+Aggregates.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54999DE20152A1600FBEC3D /* Cryptowatcher+Aggregates.swift */; };
+		B54999EC20152A1700FBEC3D /* Cryptowatcher+Aggregates.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54999DE20152A1600FBEC3D /* Cryptowatcher+Aggregates.swift */; };
+		B54999ED20152A1700FBEC3D /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54999DF20152A1600FBEC3D /* Assets.swift */; };
+		B54999EE20152A1700FBEC3D /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54999DF20152A1600FBEC3D /* Assets.swift */; };
+		B54999EF20152A1700FBEC3D /* Exchanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54999E020152A1600FBEC3D /* Exchanges.swift */; };
+		B54999F020152A1700FBEC3D /* Exchanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54999E020152A1600FBEC3D /* Exchanges.swift */; };
+		B54999F120152A1700FBEC3D /* Cryptowatcher+Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54999E120152A1600FBEC3D /* Cryptowatcher+Assets.swift */; };
+		B54999F220152A1700FBEC3D /* Cryptowatcher+Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54999E120152A1600FBEC3D /* Cryptowatcher+Assets.swift */; };
+		B54999F320152A1700FBEC3D /* Dictionary+QueryString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54999E220152A1600FBEC3D /* Dictionary+QueryString.swift */; };
+		B54999F420152A1700FBEC3D /* Dictionary+QueryString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54999E220152A1600FBEC3D /* Dictionary+QueryString.swift */; };
+		B54999F520152A1700FBEC3D /* Pairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54999E320152A1600FBEC3D /* Pairs.swift */; };
+		B54999F620152A1700FBEC3D /* Pairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54999E320152A1600FBEC3D /* Pairs.swift */; };
+		B54999F720152A1700FBEC3D /* Cryptowatcher+Exchanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54999E420152A1600FBEC3D /* Cryptowatcher+Exchanges.swift */; };
+		B54999F820152A1700FBEC3D /* Cryptowatcher+Exchanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54999E420152A1600FBEC3D /* Cryptowatcher+Exchanges.swift */; };
+		B54999F920152A1700FBEC3D /* Cryptowatcher+Markets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54999E520152A1600FBEC3D /* Cryptowatcher+Markets.swift */; };
+		B54999FA20152A1700FBEC3D /* Cryptowatcher+Markets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54999E520152A1600FBEC3D /* Cryptowatcher+Markets.swift */; };
+		B54999FB20152A1700FBEC3D /* Cryptowatcher+Pairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54999E620152A1600FBEC3D /* Cryptowatcher+Pairs.swift */; };
+		B54999FC20152A1700FBEC3D /* Cryptowatcher+Pairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54999E620152A1600FBEC3D /* Cryptowatcher+Pairs.swift */; };
+		B54999FD20152A1700FBEC3D /* Fetchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54999E720152A1700FBEC3D /* Fetchable.swift */; };
+		B54999FE20152A1700FBEC3D /* Fetchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54999E720152A1700FBEC3D /* Fetchable.swift */; };
+		B54999FF20152A1700FBEC3D /* Aggregates.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54999E820152A1700FBEC3D /* Aggregates.swift */; };
+		B5499A0020152A1700FBEC3D /* Aggregates.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54999E820152A1700FBEC3D /* Aggregates.swift */; };
+		B5499A0120152A1700FBEC3D /* Cryptowatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54999E920152A1700FBEC3D /* Cryptowatcher.swift */; };
+		B5499A0220152A1700FBEC3D /* Cryptowatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54999E920152A1700FBEC3D /* Cryptowatcher.swift */; };
+		B5499A0320152A1700FBEC3D /* Markets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54999EA20152A1700FBEC3D /* Markets.swift */; };
+		B5499A0420152A1700FBEC3D /* Markets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54999EA20152A1700FBEC3D /* Markets.swift */; };
+		B5499A0B20152B5500FBEC3D /* CryptowatcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5499A0A20152B5500FBEC3D /* CryptowatcherTests.swift */; };
+		B5499A0C20152C0200FBEC3D /* then.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54999B12015279400FBEC3D /* then.framework */; };
+		B5499A1E20152D1300FBEC3D /* getExchange.json in Resources */ = {isa = PBXBuildFile; fileRef = B5499A0E20152D1200FBEC3D /* getExchange.json */; };
+		B5499A1F20152D1300FBEC3D /* getAggregateSummaries.json in Resources */ = {isa = PBXBuildFile; fileRef = B5499A0F20152D1200FBEC3D /* getAggregateSummaries.json */; };
+		B5499A2020152D1300FBEC3D /* getApiInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = B5499A1020152D1200FBEC3D /* getApiInfo.json */; };
+		B5499A2120152D1300FBEC3D /* getMarketTrades.json in Resources */ = {isa = PBXBuildFile; fileRef = B5499A1120152D1200FBEC3D /* getMarketTrades.json */; };
+		B5499A2220152D1300FBEC3D /* getPair.json in Resources */ = {isa = PBXBuildFile; fileRef = B5499A1220152D1200FBEC3D /* getPair.json */; };
+		B5499A2320152D1300FBEC3D /* getPairIndex.json in Resources */ = {isa = PBXBuildFile; fileRef = B5499A1320152D1200FBEC3D /* getPairIndex.json */; };
+		B5499A2420152D1300FBEC3D /* getAssetIndex.json in Resources */ = {isa = PBXBuildFile; fileRef = B5499A1420152D1200FBEC3D /* getAssetIndex.json */; };
+		B5499A2520152D1300FBEC3D /* getAsset.json in Resources */ = {isa = PBXBuildFile; fileRef = B5499A1520152D1200FBEC3D /* getAsset.json */; };
+		B5499A2620152D1300FBEC3D /* getMarket.json in Resources */ = {isa = PBXBuildFile; fileRef = B5499A1620152D1200FBEC3D /* getMarket.json */; };
+		B5499A2720152D1300FBEC3D /* getMarketPrice.json in Resources */ = {isa = PBXBuildFile; fileRef = B5499A1720152D1300FBEC3D /* getMarketPrice.json */; };
+		B5499A2820152D1300FBEC3D /* getMarketOHLC.json in Resources */ = {isa = PBXBuildFile; fileRef = B5499A1820152D1300FBEC3D /* getMarketOHLC.json */; };
+		B5499A2920152D1300FBEC3D /* getMarketOrderBook.json in Resources */ = {isa = PBXBuildFile; fileRef = B5499A1920152D1300FBEC3D /* getMarketOrderBook.json */; };
+		B5499A2A20152D1300FBEC3D /* getExchangeIndex.json in Resources */ = {isa = PBXBuildFile; fileRef = B5499A1A20152D1300FBEC3D /* getExchangeIndex.json */; };
+		B5499A2B20152D1300FBEC3D /* getMarketIndex.json in Resources */ = {isa = PBXBuildFile; fileRef = B5499A1B20152D1300FBEC3D /* getMarketIndex.json */; };
+		B5499A2C20152D1300FBEC3D /* getAggregatePrices.json in Resources */ = {isa = PBXBuildFile; fileRef = B5499A1C20152D1300FBEC3D /* getAggregatePrices.json */; };
+		B5499A2D20152D1300FBEC3D /* getMarketSummary.json in Resources */ = {isa = PBXBuildFile; fileRef = B5499A1D20152D1300FBEC3D /* getMarketSummary.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +68,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B52A289E20152EAD00B9FAB6 /* TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHelpers.swift; sourceTree = "<group>"; };
 		B549995E201525B300FBEC3D /* Cryptowatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cryptowatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5499961201525B300FBEC3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B5499963201525B300FBEC3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B5499966201525B300FBEC3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B5499968201525B300FBEC3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B549996B201525B300FBEC3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B549996D201525B300FBEC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5499972201525B300FBEC3D /* CryptowatcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptowatcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5499976201525B300FBEC3D /* CryptowatcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptowatcherTests.swift; sourceTree = "<group>"; };
 		B5499978201525B300FBEC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B54999B12015279400FBEC3D /* then.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = then.framework; path = Carthage/Build/iOS/then.framework; sourceTree = "<group>"; };
+		B54999B42015291000FBEC3D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B54999DE20152A1600FBEC3D /* Cryptowatcher+Aggregates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Cryptowatcher+Aggregates.swift"; sourceTree = "<group>"; };
+		B54999DF20152A1600FBEC3D /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		B54999E020152A1600FBEC3D /* Exchanges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exchanges.swift; sourceTree = "<group>"; };
+		B54999E120152A1600FBEC3D /* Cryptowatcher+Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Cryptowatcher+Assets.swift"; sourceTree = "<group>"; };
+		B54999E220152A1600FBEC3D /* Dictionary+QueryString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+QueryString.swift"; sourceTree = "<group>"; };
+		B54999E320152A1600FBEC3D /* Pairs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pairs.swift; sourceTree = "<group>"; };
+		B54999E420152A1600FBEC3D /* Cryptowatcher+Exchanges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Cryptowatcher+Exchanges.swift"; sourceTree = "<group>"; };
+		B54999E520152A1600FBEC3D /* Cryptowatcher+Markets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Cryptowatcher+Markets.swift"; sourceTree = "<group>"; };
+		B54999E620152A1600FBEC3D /* Cryptowatcher+Pairs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Cryptowatcher+Pairs.swift"; sourceTree = "<group>"; };
+		B54999E720152A1700FBEC3D /* Fetchable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fetchable.swift; sourceTree = "<group>"; };
+		B54999E820152A1700FBEC3D /* Aggregates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Aggregates.swift; sourceTree = "<group>"; };
+		B54999E920152A1700FBEC3D /* Cryptowatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cryptowatcher.swift; sourceTree = "<group>"; };
+		B54999EA20152A1700FBEC3D /* Markets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Markets.swift; sourceTree = "<group>"; };
+		B5499A0A20152B5500FBEC3D /* CryptowatcherTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptowatcherTests.swift; sourceTree = "<group>"; };
+		B5499A0E20152D1200FBEC3D /* getExchange.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getExchange.json; sourceTree = "<group>"; };
+		B5499A0F20152D1200FBEC3D /* getAggregateSummaries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getAggregateSummaries.json; sourceTree = "<group>"; };
+		B5499A1020152D1200FBEC3D /* getApiInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getApiInfo.json; sourceTree = "<group>"; };
+		B5499A1120152D1200FBEC3D /* getMarketTrades.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getMarketTrades.json; sourceTree = "<group>"; };
+		B5499A1220152D1200FBEC3D /* getPair.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getPair.json; sourceTree = "<group>"; };
+		B5499A1320152D1200FBEC3D /* getPairIndex.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getPairIndex.json; sourceTree = "<group>"; };
+		B5499A1420152D1200FBEC3D /* getAssetIndex.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getAssetIndex.json; sourceTree = "<group>"; };
+		B5499A1520152D1200FBEC3D /* getAsset.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getAsset.json; sourceTree = "<group>"; };
+		B5499A1620152D1200FBEC3D /* getMarket.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getMarket.json; sourceTree = "<group>"; };
+		B5499A1720152D1300FBEC3D /* getMarketPrice.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getMarketPrice.json; sourceTree = "<group>"; };
+		B5499A1820152D1300FBEC3D /* getMarketOHLC.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getMarketOHLC.json; sourceTree = "<group>"; };
+		B5499A1920152D1300FBEC3D /* getMarketOrderBook.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getMarketOrderBook.json; sourceTree = "<group>"; };
+		B5499A1A20152D1300FBEC3D /* getExchangeIndex.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getExchangeIndex.json; sourceTree = "<group>"; };
+		B5499A1B20152D1300FBEC3D /* getMarketIndex.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getMarketIndex.json; sourceTree = "<group>"; };
+		B5499A1C20152D1300FBEC3D /* getAggregatePrices.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getAggregatePrices.json; sourceTree = "<group>"; };
+		B5499A1D20152D1300FBEC3D /* getMarketSummary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getMarketSummary.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B54999B22015279400FBEC3D /* then.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5499A0C20152C0200FBEC3D /* then.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +133,7 @@
 				B5499960201525B300FBEC3D /* Cryptowatcher */,
 				B5499975201525B300FBEC3D /* CryptowatcherTests */,
 				B549995F201525B300FBEC3D /* Products */,
+				B54999B02015279400FBEC3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,11 +149,20 @@
 		B5499960201525B300FBEC3D /* Cryptowatcher */ = {
 			isa = PBXGroup;
 			children = (
-				B5499961201525B300FBEC3D /* AppDelegate.swift */,
-				B5499963201525B300FBEC3D /* ViewController.swift */,
-				B5499965201525B300FBEC3D /* Main.storyboard */,
-				B5499968201525B300FBEC3D /* Assets.xcassets */,
-				B549996A201525B300FBEC3D /* LaunchScreen.storyboard */,
+				B54999E820152A1700FBEC3D /* Aggregates.swift */,
+				B54999DF20152A1600FBEC3D /* Assets.swift */,
+				B54999E920152A1700FBEC3D /* Cryptowatcher.swift */,
+				B54999DE20152A1600FBEC3D /* Cryptowatcher+Aggregates.swift */,
+				B54999E120152A1600FBEC3D /* Cryptowatcher+Assets.swift */,
+				B54999E420152A1600FBEC3D /* Cryptowatcher+Exchanges.swift */,
+				B54999E520152A1600FBEC3D /* Cryptowatcher+Markets.swift */,
+				B54999E620152A1600FBEC3D /* Cryptowatcher+Pairs.swift */,
+				B54999E220152A1600FBEC3D /* Dictionary+QueryString.swift */,
+				B54999E020152A1600FBEC3D /* Exchanges.swift */,
+				B54999E720152A1700FBEC3D /* Fetchable.swift */,
+				B54999EA20152A1700FBEC3D /* Markets.swift */,
+				B54999E320152A1600FBEC3D /* Pairs.swift */,
+				B54999B42015291000FBEC3D /* AppDelegate.swift */,
 				B549996D201525B300FBEC3D /* Info.plist */,
 			);
 			path = Cryptowatcher;
@@ -90,10 +171,43 @@
 		B5499975201525B300FBEC3D /* CryptowatcherTests */ = {
 			isa = PBXGroup;
 			children = (
-				B5499976201525B300FBEC3D /* CryptowatcherTests.swift */,
+				B5499A0D20152C6500FBEC3D /* Fixtures */,
+				B5499A0A20152B5500FBEC3D /* CryptowatcherTests.swift */,
+				B52A289E20152EAD00B9FAB6 /* TestHelpers.swift */,
 				B5499978201525B300FBEC3D /* Info.plist */,
 			);
 			path = CryptowatcherTests;
+			sourceTree = "<group>";
+		};
+		B54999B02015279400FBEC3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B54999B12015279400FBEC3D /* then.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5499A0D20152C6500FBEC3D /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				B5499A1C20152D1300FBEC3D /* getAggregatePrices.json */,
+				B5499A0F20152D1200FBEC3D /* getAggregateSummaries.json */,
+				B5499A1020152D1200FBEC3D /* getApiInfo.json */,
+				B5499A1520152D1200FBEC3D /* getAsset.json */,
+				B5499A1420152D1200FBEC3D /* getAssetIndex.json */,
+				B5499A0E20152D1200FBEC3D /* getExchange.json */,
+				B5499A1A20152D1300FBEC3D /* getExchangeIndex.json */,
+				B5499A1620152D1200FBEC3D /* getMarket.json */,
+				B5499A1B20152D1300FBEC3D /* getMarketIndex.json */,
+				B5499A1820152D1300FBEC3D /* getMarketOHLC.json */,
+				B5499A1920152D1300FBEC3D /* getMarketOrderBook.json */,
+				B5499A1720152D1300FBEC3D /* getMarketPrice.json */,
+				B5499A1D20152D1300FBEC3D /* getMarketSummary.json */,
+				B5499A1120152D1200FBEC3D /* getMarketTrades.json */,
+				B5499A1220152D1200FBEC3D /* getPair.json */,
+				B5499A1320152D1200FBEC3D /* getPairIndex.json */,
+			);
+			path = Fixtures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,6 +220,7 @@
 				B549995A201525B300FBEC3D /* Sources */,
 				B549995B201525B300FBEC3D /* Frameworks */,
 				B549995C201525B300FBEC3D /* Resources */,
+				B54999B3201527BC00FBEC3D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -179,9 +294,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B549996C201525B300FBEC3D /* LaunchScreen.storyboard in Resources */,
-				B5499969201525B300FBEC3D /* Assets.xcassets in Resources */,
-				B5499967201525B300FBEC3D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,18 +301,64 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5499A2620152D1300FBEC3D /* getMarket.json in Resources */,
+				B5499A2020152D1300FBEC3D /* getApiInfo.json in Resources */,
+				B5499A2A20152D1300FBEC3D /* getExchangeIndex.json in Resources */,
+				B5499A2920152D1300FBEC3D /* getMarketOrderBook.json in Resources */,
+				B5499A1E20152D1300FBEC3D /* getExchange.json in Resources */,
+				B5499A2B20152D1300FBEC3D /* getMarketIndex.json in Resources */,
+				B5499A1F20152D1300FBEC3D /* getAggregateSummaries.json in Resources */,
+				B5499A2720152D1300FBEC3D /* getMarketPrice.json in Resources */,
+				B5499A2320152D1300FBEC3D /* getPairIndex.json in Resources */,
+				B5499A2220152D1300FBEC3D /* getPair.json in Resources */,
+				B5499A2520152D1300FBEC3D /* getAsset.json in Resources */,
+				B5499A2120152D1300FBEC3D /* getMarketTrades.json in Resources */,
+				B5499A2420152D1300FBEC3D /* getAssetIndex.json in Resources */,
+				B5499A2820152D1300FBEC3D /* getMarketOHLC.json in Resources */,
+				B5499A2C20152D1300FBEC3D /* getAggregatePrices.json in Resources */,
+				B5499A2D20152D1300FBEC3D /* getMarketSummary.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B54999B3201527BC00FBEC3D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/then.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/then.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B549995A201525B300FBEC3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5499964201525B300FBEC3D /* ViewController.swift in Sources */,
-				B5499962201525B300FBEC3D /* AppDelegate.swift in Sources */,
+				B54999F720152A1700FBEC3D /* Cryptowatcher+Exchanges.swift in Sources */,
+				B54999FF20152A1700FBEC3D /* Aggregates.swift in Sources */,
+				B54999F520152A1700FBEC3D /* Pairs.swift in Sources */,
+				B54999F120152A1700FBEC3D /* Cryptowatcher+Assets.swift in Sources */,
+				B54999FB20152A1700FBEC3D /* Cryptowatcher+Pairs.swift in Sources */,
+				B54999F320152A1700FBEC3D /* Dictionary+QueryString.swift in Sources */,
+				B54999FD20152A1700FBEC3D /* Fetchable.swift in Sources */,
+				B54999F920152A1700FBEC3D /* Cryptowatcher+Markets.swift in Sources */,
+				B54999EF20152A1700FBEC3D /* Exchanges.swift in Sources */,
+				B5499A0320152A1700FBEC3D /* Markets.swift in Sources */,
+				B5499A0120152A1700FBEC3D /* Cryptowatcher.swift in Sources */,
+				B54999B52015291000FBEC3D /* AppDelegate.swift in Sources */,
+				B54999EB20152A1700FBEC3D /* Cryptowatcher+Aggregates.swift in Sources */,
+				B54999ED20152A1700FBEC3D /* Assets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +366,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5499977201525B300FBEC3D /* CryptowatcherTests.swift in Sources */,
+				B54999FE20152A1700FBEC3D /* Fetchable.swift in Sources */,
+				B54999EC20152A1700FBEC3D /* Cryptowatcher+Aggregates.swift in Sources */,
+				B54999B62015291000FBEC3D /* AppDelegate.swift in Sources */,
+				B54999F220152A1700FBEC3D /* Cryptowatcher+Assets.swift in Sources */,
+				B5499A0020152A1700FBEC3D /* Aggregates.swift in Sources */,
+				B54999F420152A1700FBEC3D /* Dictionary+QueryString.swift in Sources */,
+				B52A289F20152EAD00B9FAB6 /* TestHelpers.swift in Sources */,
+				B54999EE20152A1700FBEC3D /* Assets.swift in Sources */,
+				B54999F620152A1700FBEC3D /* Pairs.swift in Sources */,
+				B54999FC20152A1700FBEC3D /* Cryptowatcher+Pairs.swift in Sources */,
+				B54999F020152A1700FBEC3D /* Exchanges.swift in Sources */,
+				B5499A0220152A1700FBEC3D /* Cryptowatcher.swift in Sources */,
+				B54999F820152A1700FBEC3D /* Cryptowatcher+Exchanges.swift in Sources */,
+				B5499A0B20152B5500FBEC3D /* CryptowatcherTests.swift in Sources */,
+				B5499A0420152A1700FBEC3D /* Markets.swift in Sources */,
+				B54999FA20152A1700FBEC3D /* Cryptowatcher+Markets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,25 +394,6 @@
 			targetProxy = B5499973201525B300FBEC3D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B5499965201525B300FBEC3D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B5499966201525B300FBEC3D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B549996A201525B300FBEC3D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B549996B201525B300FBEC3D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B5499979201525B300FBEC3D /* Debug */ = {
@@ -354,6 +508,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Cryptowatcher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = benbinary.Cryptowatcher;
@@ -368,6 +526,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Cryptowatcher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = benbinary.Cryptowatcher;
@@ -383,6 +545,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CryptowatcherTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = benbinary.CryptowatcherTests;
@@ -399,6 +565,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CryptowatcherTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = benbinary.CryptowatcherTests;
