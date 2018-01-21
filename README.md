@@ -4,6 +4,9 @@ An API client for Cryptowatch written in swift.
 Cryptowatcher uses the `Codable` protocol introduced in Swift 4 to decode JSON data from the [Cryptowatch API](https://cryptowat.ch/docs/api).
 All network calls are made wtih `URLSession` and provide a promise-based interface through [then](https://github.com/freshOS/then).
 
+## Compatibility
+This project requires Swift 4/Xcode 9.
+
 ## Example
 Each of the get functions for `Cryptowatcher` will return a `Promise` for a corresponding struct representing the response. In the example below, `getMarketPrice` returns `Promise<GetMarketPrice>`.
 ```swift
