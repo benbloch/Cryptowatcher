@@ -36,13 +36,13 @@ curl -sS "https://api.cryptowat.ch/markets/gdax/btcusd/price" > "$FIXTURE_PATH"g
 curl -sS "https://api.cryptowat.ch/markets/gdax/btcusd/summary" > "$FIXTURE_PATH"getMarketSummary.json
 
 # https://cryptowat.ch/docs/api#trades
-curl -sS "https://api.cryptowat.ch/markets/gdax/btcusd/trades?limit=100&since=1481663244" > "$FIXTURE_PATH"getMarketTrades.json
+curl -sS "https://api.cryptowat.ch/markets/gdax/btcusd/trades?limit=100" > "$FIXTURE_PATH"getMarketTrades.json
 
 # https://cryptowat.ch/docs/api#orderbook
 curl -sS "https://api.cryptowat.ch/markets/gdax/btcusd/orderbook" > "$FIXTURE_PATH"getMarketOrderBook.json
 
 # https://cryptowat.ch/docs/api#ohlc
-curl -sS "https://api.cryptowat.ch/markets/gdax/btcusd/ohlc?before=1516497542&after=1516493942&periods=60" > "$FIXTURE_PATH"getMarketOHLC.json
+curl -sS "https://api.cryptowat.ch/markets/gdax/btcusd/ohlc" > "$FIXTURE_PATH"getMarketOHLC.json
 
 # https://api.cryptowat.ch/markets/prices
 curl -sS "https://api.cryptowat.ch/markets/prices" > "$FIXTURE_PATH"getAggregatePrices.json
